@@ -1,0 +1,861 @@
+.aboutusChild {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 600px);
+  background-color: var(--color-gainsboro-100);
+  width: 75rem;
+  height: 246.31rem;
+  display: none;
+}
+.bg3Icon {
+  height: calc(100% - 917.99px);
+  width: calc(100% - 176.97px);
+  top: -5.56rem;
+  right: 3.12rem;
+  bottom: 62.94rem;
+  left: 7.94rem;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.bg3Icon,
+.div1,
+.icon1 {
+  position: absolute;
+}
+.div1 {
+  top: 20.19rem;
+  left: calc(50% - 927.41px);
+  background-color: var(--color-gainsboro-200);
+  width: 75rem;
+  height: 175.06rem;
+  display: none;
+}
+.icon1 {
+  width: calc(100% - 138px);
+  top: 0.13rem;
+  right: 8.63rem;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 2.94rem;
+}
+.mega {
+  margin: 0;
+}
+.megaChina {
+  width: calc(100% - 60px);
+  top: 0;
+  left: 3.75rem;
+  line-height: 1.72rem;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.div3,
+.icon,
+.megaChina {
+  position: absolute;
+}
+.icon {
+  width: calc(100% - 543px);
+  top: 0;
+  right: 33.94rem;
+  left: 0;
+  height: 3.44rem;
+}
+.div3 {
+  left: 4.94%;
+}
+.div3,
+.div4,
+.div5 {
+  top: 0;
+  cursor: pointer;
+}
+.div4 {
+  position: absolute;
+  left: 87.07%;
+}
+.div5 {
+  left: 59.7%;
+}
+.child,
+.div5,
+.div6 {
+  position: absolute;
+}
+.div6 {
+  top: 3.57%;
+  left: 29.66%;
+  color: var(--color-mediumslateblue-100);
+}
+.child {
+  top: 94.64%;
+  right: 84.7%;
+  bottom: 1.79%;
+  left: -0.1%;
+  border-top: 1px solid var(--color-mediumslateblue-200);
+}
+.child,
+.inner,
+.item {
+  height: 3.57%;
+  width: 15.4%;
+  box-sizing: border-box;
+}
+.item {
+  position: absolute;
+  top: 94.64%;
+  right: 57.32%;
+  bottom: 1.79%;
+  left: 27.28%;
+  border-top: 1px solid var(--color-mediumslateblue-100);
+}
+.inner {
+  top: 98.21%;
+  right: -0.1%;
+  bottom: -1.79%;
+  left: 84.7%;
+  border-top: 1px solid var(--color-mediumslateblue-200);
+}
+.div2,
+.inner,
+.lineDiv {
+  position: absolute;
+}
+.lineDiv {
+  height: 3.57%;
+  width: 15.4%;
+  top: 94.64%;
+  right: 29.94%;
+  bottom: 1.79%;
+  left: 54.66%;
+  border-top: 1px solid var(--color-mediumslateblue-200);
+  box-sizing: border-box;
+}
+.div2 {
+  width: calc(100% - 202px);
+  top: 1.31rem;
+  right: 0;
+  left: 12.63rem;
+  height: 1.75rem;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-fzlantingheis-r-gb);
+}
+.navigator {
+  position: absolute;
+  width: calc(100% - 1126.81px);
+  top: 22.06rem;
+  right: 70.43rem;
+  left: 0;
+  height: 3.44rem;
+}
+.groupIcon {
+  position: absolute;
+  height: 6.08%;
+  width: 3.61%;
+  top: 50.02%;
+  right: 45.87%;
+  bottom: 43.9%;
+  left: 50.52%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangleDiv {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-131xl);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+}
+.vectorIcon {
+  position: absolute;
+  height: 22.09%;
+  width: 29.2%;
+  top: 0;
+  right: 35.6%;
+  bottom: 77.91%;
+  left: 35.2%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div9 {
+  top: 29.55%;
+  left: 25.6%;
+  letter-spacing: 0.12em;
+}
+.div8,
+.div9,
+.mega1 {
+  position: absolute;
+}
+.mega1 {
+  width: 100%;
+  top: 46.27%;
+  left: 0;
+  font-size: var(--font-size-xl);
+  line-height: 149.95%;
+  font-family: var(--font-source-han-sans-sc-vf);
+  color: var(--color-darkgray);
+  text-align: center;
+  display: inline-block;
+}
+.div8 {
+  height: 76.66%;
+  width: 79.62%;
+  top: 8.47%;
+  right: 10.19%;
+  bottom: 14.87%;
+  left: 10.19%;
+}
+.div7 {
+  top: 0;
+  left: 0;
+  width: 19.63rem;
+  height: 27.31rem;
+}
+.div12,
+.div7,
+.icon2 {
+  position: absolute;
+}
+.icon2 {
+  top: 0;
+  left: 5.75rem;
+  width: 4.13rem;
+  height: 4.13rem;
+  overflow: hidden;
+}
+.div12 {
+  top: 28.48%;
+  left: calc(50% - 71px);
+  letter-spacing: 0.12em;
+}
+.megam {
+  width: 100%;
+  top: 45.45%;
+  left: 0;
+  font-size: var(--font-size-xl);
+  line-height: 149.95%;
+  font-family: var(--font-source-han-sans-sc-vf);
+  color: var(--color-darkgray);
+  text-align: center;
+  display: inline-block;
+}
+.div10,
+.div11,
+.megam {
+  position: absolute;
+}
+.div11 {
+  top: 2.63rem;
+  left: 2rem;
+  width: 15.63rem;
+  height: 20.63rem;
+}
+.div10 {
+  top: 0;
+  left: calc(50% - 157px);
+  width: 19.63rem;
+  height: 27.31rem;
+}
+.div16 {
+  top: 25.41%;
+  left: calc(50% - 71px);
+  letter-spacing: 0.12em;
+}
+.div14,
+.div16,
+.mega30 {
+  position: absolute;
+}
+.mega30 {
+  width: 100%;
+  top: 35.14%;
+  left: 0;
+  font-size: var(--font-size-xl);
+  line-height: 149.95%;
+  font-family: var(--font-source-han-sans-sc-vf);
+  color: var(--color-darkgray);
+  text-align: center;
+  display: inline-block;
+}
+.div14 {
+  top: 2.63rem;
+  left: 2rem;
+  width: 15.63rem;
+  height: 23.13rem;
+}
+.unionIcon {
+  position: relative;
+  width: 4.69rem;
+  height: 4.69rem;
+}
+.div13 {
+  top: 0;
+  left: 48.5rem;
+  width: 19.63rem;
+  height: 27.31rem;
+}
+.div,
+.div13,
+.parent {
+  position: absolute;
+}
+.parent {
+  top: 32.06rem;
+  left: 3.44rem;
+  width: 68.13rem;
+  height: 27.31rem;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-fzlantingheis-r-gb);
+}
+.div {
+  top: -20.25rem;
+  left: 22.5rem;
+  width: 115.93rem;
+  height: 68.85rem;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-space-mono);
+}
+.aboutusItem {
+  position: absolute;
+  top: 52.88rem;
+  left: 38.31rem;
+  border-radius: var(--br-41xl);
+  background-color: var(--color-mediumslateblue-100);
+  width: 43.44rem;
+  height: 5.13rem;
+}
+.div17,
+.mega2 {
+  position: absolute;
+  line-height: 149.95%;
+}
+.div17 {
+  top: 0;
+  left: 28.44rem;
+}
+.mega2 {
+  top: 5.44rem;
+  left: 20.94rem;
+  color: var(--color-white);
+}
+.icon3 {
+  top: 11.94rem;
+  left: -1.56rem;
+  border-radius: 260px;
+  width: 29.94rem;
+  height: 38.44rem;
+  overflow: hidden;
+}
+.icon3,
+.mega3,
+.news {
+  position: absolute;
+}
+.mega3 {
+  top: 19.13rem;
+  left: 34.13rem;
+  line-height: 197%;
+  color: var(--color-darkgray);
+  display: inline-block;
+  width: 36.44rem;
+  height: 30.19rem;
+}
+.news {
+  top: 48.63rem;
+  left: 22.63rem;
+  width: 70.56rem;
+  height: 49.31rem;
+  text-align: center;
+  font-size: var(--font-size-7xl);
+  color: var(--color-black);
+}
+.aboutusInner {
+  position: absolute;
+  top: 110.06rem;
+  left: 57.94rem;
+  border-radius: var(--br-41xl) 0 0 var(--br-41xl);
+  background-color: var(--color-white);
+  box-shadow: 0 7px 18px rgba(0, 0, 0, 0.25);
+  width: 62.13rem;
+  height: 34rem;
+}
+.mega4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-17xl);
+  line-height: 149.95%;
+  color: var(--color-black);
+  display: inline-block;
+  width: 10.88rem;
+}
+.mega6,
+.mega7,
+.mega8 {
+  position: absolute;
+  line-height: 197%;
+}
+.mega6 {
+  top: 9.63rem;
+  left: 0.25rem;
+  font-size: var(--font-size-7xl);
+  color: var(--color-darkgray);
+  display: inline-block;
+  width: 28.13rem;
+}
+.mega7,
+.mega8 {
+  top: 7rem;
+  left: 47.56rem;
+}
+.mega8 {
+  top: 41.81rem;
+  left: 53.06rem;
+}
+.image13Icon,
+.image14Icon,
+.image15Icon {
+  position: absolute;
+  top: 10.19rem;
+  left: 37.5rem;
+  width: 10.06rem;
+  height: 6.56rem;
+  object-fit: cover;
+}
+.image14Icon,
+.image15Icon {
+  top: 8.31rem;
+  left: 52rem;
+  width: 15.69rem;
+  height: 11.13rem;
+}
+.image15Icon {
+  top: 19.13rem;
+  left: 39.56rem;
+  width: 11.38rem;
+  height: 6.69rem;
+}
+.image16Icon,
+.image17Icon,
+.image18Icon {
+  position: absolute;
+  top: 28.88rem;
+  left: 37.5rem;
+  width: 17.88rem;
+  height: 7.75rem;
+  object-fit: cover;
+}
+.image17Icon,
+.image18Icon {
+  top: 18.44rem;
+  left: 53.06rem;
+  width: 20.75rem;
+  height: 8.06rem;
+}
+.image18Icon {
+  top: 29.13rem;
+  left: 58.94rem;
+  width: 10.56rem;
+  height: 6rem;
+}
+.div18 {
+  position: absolute;
+  top: 105.13rem;
+  left: 23.69rem;
+  width: 73.81rem;
+  height: 43.81rem;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-200);
+}
+.groupChild {
+  position: absolute;
+  top: 4.75rem;
+  left: 0;
+  background-color: var(--color-whitesmoke-100);
+  width: 98.94rem;
+  height: 46.94rem;
+}
+.div19 {
+  position: absolute;
+  top: 0;
+  left: 2.31rem;
+  line-height: 149.95%;
+  display: inline-block;
+  width: 10.88rem;
+}
+.vectorIcon1,
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4 {
+  position: absolute;
+  height: 100.61%;
+  width: 88.39%;
+  top: -0.31%;
+  right: 3.22%;
+  bottom: -0.31%;
+  left: 8.39%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4 {
+  height: 10.54%;
+  width: 14.59%;
+  top: 74.59%;
+  right: 85.81%;
+  bottom: 14.86%;
+  left: -0.4%;
+}
+.vectorIcon3,
+.vectorIcon4 {
+  height: 10.84%;
+  top: 8.39%;
+  right: 84.93%;
+  bottom: 80.78%;
+  left: 0.48%;
+}
+.vectorIcon4 {
+  height: 13.9%;
+  width: 18.36%;
+  top: 57.88%;
+  right: -0.4%;
+  bottom: 28.22%;
+  left: 82.04%;
+}
+.mega9 {
+  position: absolute;
+  height: 80.77%;
+  width: 62.3%;
+  top: 11.14%;
+  left: 21.77%;
+  line-height: 149.95%;
+  display: inline-block;
+}
+.vectorParent {
+  position: absolute;
+  height: 100%;
+  width: 40.59%;
+  top: 0;
+  right: 59.41%;
+  bottom: 0;
+  left: 0;
+}
+.vectorIcon5,
+.vectorIcon6,
+.vectorIcon7 {
+  position: absolute;
+  height: 100.61%;
+  width: 88.69%;
+  top: -0.31%;
+  right: 6.45%;
+  bottom: -0.31%;
+  left: 4.86%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon6,
+.vectorIcon7 {
+  height: 10.84%;
+  width: 14.64%;
+  top: 84.49%;
+  right: -0.4%;
+  bottom: 4.68%;
+  left: 85.76%;
+}
+.vectorIcon7 {
+  height: 8.54%;
+  width: 11.31%;
+  top: 54.99%;
+  right: 89.09%;
+  bottom: 36.47%;
+  left: -0.4%;
+}
+.mega11 {
+  position: absolute;
+  height: 80.89%;
+  width: 62.55%;
+  top: 11.16%;
+  left: 18.01%;
+  line-height: 149.95%;
+  display: inline-block;
+}
+.vectorGroup {
+  position: absolute;
+  height: 99.84%;
+  width: 40.42%;
+  top: 0;
+  right: 20.05%;
+  bottom: 0.15%;
+  left: 39.53%;
+}
+.vectorIcon10,
+.vectorIcon8,
+.vectorIcon9 {
+  position: absolute;
+  height: 100.61%;
+  width: 88.85%;
+  top: -0.31%;
+  right: 4.62%;
+  bottom: -0.31%;
+  left: 6.53%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon10,
+.vectorIcon9 {
+  height: 10.55%;
+  width: 14.67%;
+  top: 73.27%;
+  right: 85.73%;
+  bottom: 16.18%;
+  left: -0.41%;
+}
+.vectorIcon10 {
+  height: 13.91%;
+  width: 18.46%;
+  top: 67.93%;
+  right: -0.41%;
+  bottom: 18.16%;
+  left: 81.95%;
+}
+.iFullyEnjoyedContainer {
+  position: absolute;
+  width: 62.93%;
+  top: 4.45%;
+  left: 19.35%;
+  line-height: 149.95%;
+  display: inline-block;
+}
+.vectorContainer {
+  position: absolute;
+  height: 99.39%;
+  width: 40.18%;
+  top: 0;
+  right: -17.18%;
+  bottom: 0.61%;
+  left: 77%;
+}
+.vectorIcon11,
+.vectorIcon12 {
+  position: absolute;
+  height: 100.61%;
+  width: 93.3%;
+  top: -0.31%;
+  right: 7.14%;
+  bottom: -0.31%;
+  left: -0.43%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon12 {
+  height: 10.53%;
+  width: 15.56%;
+  top: 71.47%;
+  right: -0.43%;
+  bottom: 18%;
+  left: 84.87%;
+}
+.everyoneHadDifferentContainer {
+  position: absolute;
+  width: 66.73%;
+  top: 4.45%;
+  left: 12.74%;
+  line-height: 149.95%;
+  display: inline-block;
+}
+.groupDiv {
+  position: absolute;
+  height: 99.54%;
+  width: 37.89%;
+  top: -0.46%;
+  right: -55.73%;
+  bottom: 0.92%;
+  left: 117.84%;
+}
+.groupParent {
+  position: absolute;
+  top: 7.44rem;
+  left: 0;
+  width: 76.38rem;
+  height: 40.94rem;
+  overflow-x: auto;
+  font-size: var(--font-size-3xl);
+}
+.rectangleParent {
+  position: absolute;
+  top: 193.44rem;
+  left: -0.12rem;
+  width: 98.94rem;
+  height: 51.69rem;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+}
+.contactChild {
+  width: 100%;
+  right: 0;
+  left: 0;
+  background-color: var(--color-black);
+  height: 55.81rem;
+}
+.contactChild,
+.groupItem,
+.image10Icon {
+  position: absolute;
+  bottom: 0;
+}
+.groupItem {
+  width: 100%;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-25xl);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.12);
+  height: 29.5rem;
+}
+.image10Icon {
+  left: calc(50% - 399px);
+  width: 20.88rem;
+  height: 26.94rem;
+  object-fit: cover;
+}
+.image11Icon,
+.image12Icon {
+  position: absolute;
+  bottom: 22.94rem;
+  left: calc(50% + 82px);
+  width: 11.5rem;
+  height: 3.31rem;
+  object-fit: cover;
+}
+.image11Icon {
+  bottom: 0.56rem;
+  left: calc(50% + 64px);
+  width: 20.94rem;
+  height: 20.69rem;
+}
+.image10Parent {
+  position: absolute;
+  bottom: 1.56rem;
+  left: calc(50% - 402px);
+  width: 49.88rem;
+  height: 26.94rem;
+}
+.rectangleGroup {
+  position: absolute;
+  width: calc(100% - 997px);
+  right: 31.13rem;
+  bottom: 14.5rem;
+  left: 31.19rem;
+  box-shadow: 4px 4px 17px rgba(0, 0, 0, 0.25);
+  height: 29.5rem;
+}
+.contact1 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 55.81rem;
+}
+.megaLeagueAll {
+  position: absolute;
+  top: 35.31rem;
+  left: 24.25rem;
+}
+.megachinaofficalgmailcom {
+  position: absolute;
+  bottom: 4.69rem;
+  left: 26rem;
+}
+.contact,
+.div20 {
+  position: absolute;
+}
+.contact {
+  top: 5.5rem;
+  left: 0;
+  width: 120.06rem;
+  height: 45.5rem;
+}
+.div20 {
+  top: 0;
+  left: calc(50% - 79.5px);
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-fzlantingheis-r-gb);
+}
+.contactParent {
+  position: absolute;
+  top: 252.69rem;
+  left: 0;
+  width: 120.06rem;
+  height: 51rem;
+  color: var(--color-white);
+  font-family: var(--font-space-mono);
+}
+.div21 {
+  position: absolute;
+  top: 93rem;
+  left: 87.19rem;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  cursor: pointer;
+}
+.image22Icon,
+.image23Icon {
+  position: absolute;
+  top: 0;
+  object-fit: cover;
+}
+.image22Icon {
+  left: 0;
+  width: 41.72rem;
+  height: 27.89rem;
+}
+.image23Icon {
+  left: 38.23rem;
+  width: 37.63rem;
+  height: 28.19rem;
+}
+.image22Parent,
+.image27Icon {
+  position: absolute;
+  top: 151.06rem;
+  left: 21.19rem;
+  width: 75.86rem;
+  height: 28.19rem;
+}
+.image27Icon {
+  top: 133.13rem;
+  left: 95.38rem;
+  width: 23.25rem;
+  height: 8.25rem;
+  object-fit: cover;
+}
+.aboutus {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 303.69rem;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-mediumslateblue-100);
+  font-family: var(--font-fzlantingheis-r-gb);
+}
