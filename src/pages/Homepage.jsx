@@ -53,7 +53,36 @@ function Homepage() {
 
         <div className={Styles.intro}>
             <div className={Styles.tiltDiv}></div>
-          
+            <div className={Styles.cards}>
+                <div className={Styles.card}>
+                  <div className={Styles.cardImage}>
+                    <img src="/vector4.svg" alt="shape" />
+                  </div>
+                  <div className={Styles.cardContent}>
+                    <div className={Styles.cardHead}>Who we are?</div>
+                    <div className={Styles.cardText}>In 2019, MEGA was co-founded by a group of innovators from top global institutions in Princeton, USA. The fields covered include, but are not limited to, technology, engineering, design, art, business, social and natural sciences.</div>
+                  </div>
+                </div>
+                <div className={Styles.card}>
+                  <div className={Styles.cardImage}>
+                    <img src="/Vector.png" alt="shape" />
+                  </div>
+                  <div className={Styles.cardContent}>
+                    <div className={Styles.cardHead}>What do we do?</div>
+                    <div className={Styles.cardText}>MEGA aims to encourage and assist outstanding young people to explore their potential, explore diverse cognition, and with the support of MEGA, develop project products with value and influence oriented towards solving practical problems through their own abilities and development.</div>
+                  </div>
+                </div>
+                <div className={Styles.card}>
+                  <div className={Styles.cardImage}>
+                    <img src="/union.svg" alt="shape" />
+                  </div>
+                  <div className={Styles.cardContent}>
+                    <div className={Styles.cardHead}>What do we do?</div>
+                    <div className={Styles.cardText}>MEGA has set up implementation sites around the world and is supported by more than 30 businesses, technology companies and ngos. Members innovate and collaborate in areas such as the environment, education and healthcare to provide viable solutions, and have received financial support and internship opportunities.</div>
+                  </div>
+                </div>
+            </div>
+            <div className={Styles.learnMore}>Learn more</div>
         </div>
 
         {/* Events-Section */}

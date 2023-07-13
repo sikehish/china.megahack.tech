@@ -149,7 +149,7 @@
 .intro{
     position: absolute;
     background-color: #F2F2F2;
-    height: 70vh;
+    height: 76vh;
     width: 100%;
     margin-top: 90vh;
 }
@@ -161,9 +161,75 @@
     transform: rotate(-15deg);
     border-radius: 22px;
     background-color: rgba(255, 255, 255, 0.5);
-  }
+    top: -10px;
+     /* Set a lower z-index value to move it behind other elements */
+}
+
+.cards {
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
+    position: relative; /* Ensure the parent element has a position other than static */
+    z-index: 10;
+}
+
   
+.card {
+    height: 52vh;
+    width: 43vh;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.cardImage img {
+    height: 12vh;
+}
+
+.cardContent {
+    margin-top: 10px;
+    font-family: var(--font-space-mono);
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cardHead {
+    font-size: 1.1rem;
+}
+
+.cardText {
+    margin-top: 8px;
+    font-size: 0.65rem;
+    color: #acacac;
+}
+.learnMore{
+    position: absolute;
+    margin-top: 22px;
+    padding: 10px 18px;
+    background-color: white;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 10px;
+    color: var(--color-mediumslateblue-100);
+    font-family: var(--font-poppins);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    font-weight: 100;
+    width: fit-content;
+    left: 44.5%;
+}
+.learnMore:hover{
+    background-color: var(--color-mediumslateblue-100);
+    color: white;
+}
   
+
 
 /* Events-Section */
 
