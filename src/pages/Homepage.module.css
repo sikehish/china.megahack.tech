@@ -235,6 +235,47 @@
 
 
 /* Sponsors-Section */
-
+.sponsors{
+    position: absolute;
+    margin-top: 175vh;
+    left: 25%;
+}
+.sponsors img{
+    height: 60vh;
+}
 
 /* ContactUs-Section */
+.contactUs{
+    position: absolute;
+    margin-top: 248vh;
+    height: 77vh;
+    background-color: black;
+    width: 100%;
+    font-family: var(--font-space-mono);
+    
+}
+
+.contactContent{
+    position: absolute;
+    left: 28%;
+}
+
+.contactHead{
+    font-size: 1.5rem;
+    color: white;
+    left: 10%;
+    padding-left: 12rem;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.contactQR img{
+    height: 50vh;
+    margin-bottom: 15px;
+}
+.copyright{
+    color: white;
+}
+.email{
+    color: white;
+}

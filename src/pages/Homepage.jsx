@@ -39,7 +39,6 @@ function Homepage() {
 
             </div>
 
-
             <div className={Styles.posterDiv}>
             <div className={Styles.poster}>
                 <img src="/poster.png" alt="poster" />
@@ -89,7 +88,22 @@ function Homepage() {
 
         {/* Sponsors-Section */}
 
+        <div className={Styles.sponsors}>
+            <img src="/sponsors@2x.png" alt="sponsors" />
+        </div>
+
+
         {/* ContactUs-Section */}
+        <div className={Styles.contactUs}>
+            <div className={Styles.contactContent}>
+              <div className={Styles.contactHead}>Contact Us</div>
+              <div className={Styles.contactQR}>
+                <img src="/Group 21.png" alt="qr code" />
+              </div>
+              <div className={Styles.copyright}>© 2023 MEGA League. All Rights Reserved</div>
+              <div className={Styles.email}>megachinaoffical@gmail.com</div>
+            </div>
+        </div>
         
 
     </>
