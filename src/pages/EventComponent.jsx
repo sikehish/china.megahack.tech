@@ -1,26 +1,33 @@
-import Styles from './Homepage.module.css'
+import Styles from "./Homepage.module.css";
 
-export default function EventsPage()  {
-    return (
-        <div className={Styles.event}>  
-        <div className= {Styles.eventDisplay}>
-            <img src="/events-image1.png" alt="event Image" />
-            <div className={Styles.eventRegistration}></div>
-            <div className={Styles.hot2}>Hot Registration!</div>
-                        <div className= "eventTitle">
-                            <div className={Styles.megaHeading}>mega</div>
-                            <div className={Styles.megaHeading}>ideahack</div>
-                        </div>
-                        <div className= "eventDate">
-                            <div className={Styles.megaHeading}>2023.7 22 - 24</div>
-                            <div className={Styles.megaHeading}>Shangai China</div>
+export default function EventsPage() {
+  return (
+    <div className={Styles.event}>
+      <div className={Styles.eventDisplay}>
+        <div>
+          <img src="/events-image1.png" alt="event Image" />
         </div>
-            
-            </div>
+        <div className={Styles.infoRegistration}>
+          <div className={Styles.hot2}>Hot Registration!</div>
+          
+            <div className={Styles.megaHeading2}>mega</div>
+            <div className={Styles.megaHeading2}>ideahack</div>
+          
+          
+            <div className={Styles.eventDate}>2023.7 22-24</div>
+            <div className={Styles.eventDate}>Shangai China</div>
+            <div className={Styles.div1Buttons}>
+                  <div className={Styles.div1signUp}>Sign up now</div>
+                  <div className={Styles.div1LearnMore}>Learn more</div>
+                </div>
         </div>
         
-         
-        
-    )
+      </div>
+      <div className={Styles.eventDisplay2}>
+      <div>
+          <img src="/events-image1.png" alt="event Image" />
+        </div>
+      </div>
+    </div>
+  );
 }
-

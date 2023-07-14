@@ -246,24 +246,87 @@
 .event {
     position: absolute;
     margin-top: 175vh;
-    width: 50%;
+    width: 60%;
     height: 729px;
     flex-shrink: 0;
     display: inline;
     border-radius: 0px 30px 30px 0px;
     background: #FFD600;
 }
+.megaHeading2{
+    font-family: var(--font-space-mono);
+    color: var(--color-mediumslateblue-100);
+    font-size: 3rem;
+    text-transform: uppercase;
+    line-height: 1.07;
+    letter-spacing: 6px;
+}
 
-.eventRegistration {
-   justify-content: center;
+.eventDisplay {
+   align-items: center;
    display: flex;
-   margin-top: 20;
+   margin-top: 20px;
+   margin-left: 300px;
+}
+
+.eventDisplay2 {
+    display: flex;
+}
+
+.infoRegistration {
+    width: 469px;
+    height: 424px;
+    flex-shrink: 0;
+}
+
+.eventDate {
+    color: #000;
+    font-family: Abel;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 154%; /* 43.12px */
 }
 
 
 
 .event img{
-    height: 60vh;
+    width: 475px;
+    height: 667px;
+}
+.div1Buttons {
+    margin-top: 10px;
+    display: flex;
+  }
+  
+.div1signUp {
+    margin-right: 4px;
+    padding: 8px 15px;
+    background-color: var(--color-mediumslateblue-100);
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 14px;
+    color: white;
+    letter-spacing: -1px;
+    font-family: var(--font-poppins);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    cursor: pointer;
+    font-weight: lighter;
+}
+.div1signUp:hover {
+    background-color: var(--color-blueviolet);
+}
+
+.div1LearnMore:hover {
+    text-decoration: underline;
+}
+
+.div1LearnMore {
+    font-size: 1.1rem;
+    padding: 8px 15px;
+    font-family: var(--font-poppins);
+    cursor: pointer;
+    color: var(--color-mediumslateblue-100);
 }
 
 
