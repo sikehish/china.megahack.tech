@@ -1,4 +1,5 @@
-import React from 'react'
+// import React from 'react'
+import EventsPage from './EventComponent'
 import Styles from './Homepage.module.css'
 
 function Homepage() {
@@ -85,6 +86,9 @@ function Homepage() {
         </div>
 
         {/* Events-Section */}
+       
+        
+          <EventsPage />
 
         {/* Sponsors-Section */}
 

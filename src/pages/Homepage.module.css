@@ -233,12 +233,47 @@
 
 /* Events-Section */
 
+.hot2 {
+    
+    color: #FF6B71;
+    font-family: Abel;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.event {
+    position: absolute;
+    margin-top: 175vh;
+    width: 50%;
+    height: 729px;
+    flex-shrink: 0;
+    display: inline;
+    border-radius: 0px 30px 30px 0px;
+    background: #FFD600;
+}
+
+.eventRegistration {
+   justify-content: center;
+   display: flex;
+   margin-top: 20;
+}
+
+
+
+.event img{
+    height: 60vh;
+}
+
 
 /* Sponsors-Section */
 .sponsors{
     position: absolute;
-    margin-top: 175vh;
+    margin-top: 260vh;
     left: 25%;
+    height: 70vh;
+    flex: 100px;
 }
 .sponsors img{
     height: 60vh;
@@ -247,7 +282,7 @@
 /* ContactUs-Section */
 .contactUs{
     position: absolute;
-    margin-top: 248vh;
+    margin-top: 340vh;
     height: 77vh;
     background-color: black;
     width: 100%;
