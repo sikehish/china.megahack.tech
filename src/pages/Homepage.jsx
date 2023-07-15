@@ -65,8 +65,7 @@ function Homepage() {
                 
             </div>
 
-
-            {/* WhoWeAre-Section */}
+            {/* WhoWeARe-Section */}
 
             <div className={Styles.intro}>
                 <div className={Styles.tiltDiv}></div>
@@ -82,7 +81,7 @@ function Homepage() {
                     </div>
                     <div className={Styles.card}>
                     <div className={Styles.cardImage}>
-                        <img src="/vector3.svg" alt="shape" />
+                        <img src="/Vector.png" alt="shape" />
                     </div>
                     <div className={Styles.cardContent}>
                         <div className={Styles.cardHead}>{t('intro.cardhead2')}</div>
@@ -106,6 +105,7 @@ function Homepage() {
             </div>
 
           {/* Events-Section */}
+
           <div className={Styles.eventHead} >
           <div align="center">
               <div className={Styles.eventTitle}>Events</div>
@@ -170,18 +170,18 @@ function Homepage() {
           </div>
           </div>
 
-          {/* Sponsors-Section */}
+          {/* Sponsor-Section */}
 
           <div className={Styles.sponsors}>
               <img src="/sponsors@2x.png" alt="sponsors" />
-          </div>
+          </div> 
 
 
           {/* ContactUs-Section */}
           <div className={Styles.contactUs}>
               <div className={Styles.contactContent}>
                 <div align="center">
-                <div className={Styles.contactHead}>{t('contact.contacthead')}</div>
+                  <div className={Styles.contactHead}>{t('contact.contacthead')}</div>
                 </div>
                 
                 <div className={Styles.contactQR}>
