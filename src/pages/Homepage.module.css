@@ -157,6 +157,7 @@
         justify-content: center;
         z-index: 90;
         width: 100%;
+        margin-left: 10px;
       }
   
     .tabs {
@@ -165,8 +166,8 @@
   
     .div1Content {
       margin-left: 0;
-      padding-left: 6rem;
-      padding-right: 6rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
       padding-top: 3rem;
       text-align: center;
       position: relative;
@@ -200,7 +201,7 @@
   
     .tab {
       margin-right: 2rem;
-      font-size: 0.6rem;
+      font-size: 0.55rem;
       padding-bottom: 1rem;
       padding-top: 0.8rem;
     }
