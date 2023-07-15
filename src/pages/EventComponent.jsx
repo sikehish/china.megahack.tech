@@ -1,6 +1,12 @@
 import Styles from './Homepage.module.css'
 
 export default function EventsPage()  {
+
+
+    const handleSignUp = () => {
+        window.open("https://mega-hackathon-2023-summer.devpost.com/", '_blank');
+    };
+
     return (
         <>
         <div className={Styles.eventHead}>
@@ -23,7 +29,7 @@ export default function EventsPage()  {
                     <div className={Styles.date}>2023.7.22 - 24</div>
                     <div className={Styles.date}>Shangai China</div>
                     <div className={Styles.div3Buttons}>
-                        <div className={Styles.div3signUp}>Sign up now</div>
+                        <div className={Styles.div3signUp} onClick={handleSignUp}>Sign up now</div>
                         <div className={Styles.div3LearnMore}>Learn more</div>
                     </div>
             </div>
