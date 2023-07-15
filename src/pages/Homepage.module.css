@@ -146,11 +146,12 @@
 .intro{
     position: absolute;
     background-color: #F2F2F2;
-    height: 76vh;
     width: 100%;
     margin-top: 90vh;
-}
-.tiltDiv {
+    padding-bottom: 30px;
+    
+  }
+  .tiltDiv {
     position: absolute;
     height: 55vh;
     width: 55vh;
@@ -159,20 +160,21 @@
     border-radius: 22px;
     background-color: rgba(255, 255, 255, 0.5);
     top: -10px;
-     /* Set a lower z-index value to move it behind other elements */
-}
-
-.cards {
+  }
+  
+  .cards {
     display: flex;
     padding-top: 40px;
     justify-content: center;
-    position: relative; /* Ensure the parent element has a position other than static */
+    position: relative;
     z-index: 10;
-}
-
+    padding-bottom: 40px;
+  }
   
-.card {
-    height: 52vh;
+  .card {
+    height: auto;
+    min-height: auto;
+    padding-bottom: 40px;
     width: 43vh;
     background-color: white;
     border-radius: 10px;
@@ -182,11 +184,11 @@
     align-items: center;
     padding-top: 25px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-}
-
-.cardImage img {
+  }
+  
+  .cardImage img {
     height: 12vh;
-}
+  }
 
 .cardContent {
     margin-top: 10px;
@@ -206,8 +208,7 @@
     color: #acacac;
 }
 .learnMore{
-    position: absolute;
-    margin-top: 22px;
+    
     padding: 10px 18px;
     background-color: white;
     font-size: 0.9rem;
@@ -219,7 +220,6 @@
     cursor: pointer;
     font-weight: 100;
     width: fit-content;
-    left: 44.5%;
 }
 .learnMore:hover{
     background-color: var(--color-mediumslateblue-100);
@@ -234,7 +234,7 @@
 
 .event {
     position: absolute;
-    margin-top: 192vh;
+    margin-top: 196vh;
     width: 100%;
     display: flex;
 }
@@ -284,9 +284,9 @@
 
 .eventHead {
    position: absolute;
-   margin-top: 172vh;
-   z-index: 10;
-   left: 41%;
+   margin-top: 174vh;
+   width: 100%;
+   
 }
 .eventTitle{
     font-family: var(--font-space-mono);
@@ -294,12 +294,15 @@
     font-size: 1.7rem;
     text-transform: uppercase;
     margin-bottom: 10px;
-    padding-left: 50px;
+    padding-top: 30px;
+    
 }
 .activity{
     font-family: var(--font-space-mono);
     font-size: 1.2rem;
     font-weight: 100;
+    letter-spacing: 1.6;
+    font-weight: bold;
 }
 
 
@@ -451,7 +454,7 @@
 /* Sponsors-Section */
 .sponsors{
     position: absolute;
-    margin-top: 288vh;
+    margin-top: 300vh;
     left: 25%;
     height: 70vh;
     flex: 100px;
@@ -463,8 +466,8 @@
 /* ContactUs-Section */
 .contactUs{
     position: absolute;
-    margin-top: 358vh;
-    height: 77vh;
+    margin-top: 368vh;
+    height: 80vh;
     background-color: black;
     width: 100%;
     font-family: var(--font-space-mono);
@@ -479,10 +482,8 @@
 .contactHead{
     font-size: 1.5rem;
     color: white;
-    left: 10%;
-    padding-left: 12rem;
-    margin-top: 15px;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .contactQR img{
