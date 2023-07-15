@@ -3,6 +3,13 @@ import EventsPage from './EventComponent'
 import Styles from './Homepage.module.css'
 
 function Homepage() {
+
+
+  const handleSignUp = () => {
+    window.open("https://mega-hackathon-2023-summer.devpost.com/", '_blank');
+  };
+  
+
   return (
     <>
 
@@ -34,7 +41,9 @@ function Homepage() {
                 You will team up with other participants and, under the guidance of well-known university teaching assistants and industry leaders, jointly design solutions, create related works and develop landing projects in three days from the United Nations Sustainable Development Goals.
                 </div>
                 <div className={Styles.div1Buttons}>
-                  <div className={Styles.div1signUp}>Sign up now</div>
+                 
+                  <div className={Styles.div1signUp} onClick={handleSignUp}>Sign up now</div>
+                  
                   <div className={Styles.div1LearnMore}>Learn more</div>
                 </div>
 
