@@ -4,7 +4,7 @@ import { useTranslation, Trans } from 'react-i18next';
 
 function Homepage() {
 
-    const [isMenuOpen, setIsMenuOpen] = useState(false)
+    const [isMenuOpen, setIsMenuOpen] = useState(true)
     const handleDropdown = () => {
       setIsMenuOpen(!isMenuOpen)
     }
