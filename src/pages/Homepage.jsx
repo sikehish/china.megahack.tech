@@ -1,8 +1,13 @@
- import React, {useEffect} from 'react'
+ import React, {useEffect, useState} from 'react'
 import Styles from './Homepage.module.css'
 import { useTranslation, Trans } from 'react-i18next';
 
 function Homepage() {
+
+    const [isMenuOpen, setIsMenuOpen] = useState(false)
+    const handleDropdown = () => {
+      setIsMenuOpen(!isMenuOpen)
+    }
 
     const { t, i18n } = useTranslation();
 
@@ -34,11 +39,26 @@ function Homepage() {
                     </div>
 
                     <div className={Styles.tabs}>
+                    <div className={Styles.tab}>{t('heroSection.tab1')}</div>
+                    <div className={Styles.tab}>{t('heroSection.tab2')}</div>
+                    <div className={Styles.tab}>{t('heroSection.tab3')}</div>
+                    <div className={Styles.tab}>{t('heroSection.tab4')}</div>
+                  </div>
+
+                  {/* Mobile version dropdown */}
+                  <div className={Styles.mobileDropdown}>
+                    <div className={Styles.menuIcon} onClick={handleDropdown}>
+                      &#9776;
+                    </div>
+                    <div className={`${Styles.dropdownContent} ${isMenuOpen ? Styles.show : ''}`}>
+                        
                         <div className={Styles.tab}>{t('heroSection.tab1')}</div>
                         <div className={Styles.tab}>{t('heroSection.tab2')}</div>
                         <div className={Styles.tab}>{t('heroSection.tab3')}</div>
                         <div className={Styles.tab}>{t('heroSection.tab4')}</div>
+                        
                     </div>
+                  </div>
                 </div>
                 <div className={Styles.div1Content}>
                     <div className={Styles.hot}>{t('heroSection.hot')}</div>
