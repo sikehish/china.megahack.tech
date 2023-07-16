@@ -8,3 +8,7 @@ To start project
 
 ## V1 for Marketing:
 https://mega-china-landing-v1.netlify.app/
+
+## Management
+@Ethan - RinSoftwareDeveloper
+@Jason - Mootbing
