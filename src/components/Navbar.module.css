@@ -1,0 +1,132 @@
+
+.navbar {
+    position: absolute;
+    left: 12%;
+    top: 0;
+    padding: 1.4rem 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    z-index: 90;
+    font-family: var(--font-space-mono);
+  }
+
+.logo{
+    display: flex;
+    color: var(--color-mediumslateblue-100);
+    font-size: 0.7rem;
+}
+.logo img{
+    height: 30px;
+    width: 33px
+}
+
+.logoText{
+    padding-left: 0.5rem;
+}
+
+.tabs{
+    display: flex;
+    font-size: 0.7rem;
+    padding-left: 3.2rem;
+}
+
+.tab {
+    margin-right: 3.2rem;
+    font-weight: 500; 
+    padding-bottom: 1rem; 
+    justify-content: center;
+    padding-top: 0.8rem;
+}
+
+.tab:hover {
+    color: var(--color-blueviolet);
+    cursor: pointer;
+    border-bottom: 2px solid var(--color-mediumslateblue-100); 
+}
+
+.mobileDropdown{
+    display: none;
+  }
+
+  .menuIcon{
+    color: var(--color-mediumslateblue-100);
+    font-size: 1.8rem;
+    cursor: pointer;
+    padding: 0px 8px;
+    border-radius: 5px;
+ }
+ .menuIcon:hover{
+   color: white;
+   background-color: var(--color-mediumslateblue-100);
+   padding: 0px 8px;
+ }
+
+
+  @media only screen and (max-width: 768px) {
+
+    .navbar {
+        position: relative;
+        left: 46%;
+        transform: translateX(-50%);
+        padding: 20px 0px;
+        
+        display: flex;
+        justify-content: space-between;
+        z-index: 90;
+        width: 100%;
+        
+      }
+  
+    .tabs {
+      display: none;
+    }
+  
+    .mobileDropdown{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .tabs {
+        padding-left: 2rem;
+        justify-content: center;
+        border-radius: 8px;
+      }
+    
+      .tab {
+        font-size: 0.55rem;
+        padding-bottom: 1rem;
+        padding-top: 0.8rem;
+        color: var(--color-mediumslateblue-100);
+        font-size: 0.8rem;
+        margin-right: 0.1rem;
+        
+        padding-left: 40px;
+        border-radius: 8px;
+      }
+      .tab:hover{
+        background-color: #7f5edd;
+        color: white;
+      }
+  
+      .show{
+        display: none;
+      }
+      .dropdownContent{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #ffffff;
+        width: 100%;
+        flex-direction: column;
+        border-radius: 8px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        margin-left: 5px;
+  
+      } 
+      
+      .logo{
+        padding-left: 40px;
+      }
+
+  }
