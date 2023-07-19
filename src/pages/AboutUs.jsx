@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import ContactUs from '../components/ContactUs';
 import Styles from './AboutUs.module.css';
@@ -12,7 +12,7 @@ function AboutUs() {
     i18n.changeLanguage(lng);
   }, []);
 
-  const lng = navigator.language;
+  // const lng = navigator.language;
 
   return (
     <>
