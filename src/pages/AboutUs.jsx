@@ -3,14 +3,21 @@ import Navbar from '../components/Navbar';
 import ContactUs from '../components/ContactUs';
 import Styles from './AboutUs.module.css';
 import { useTranslation } from 'react-i18next';
+import { useNavigate } from 'react-router-dom';
 
 function AboutUs() {
   const { t, i18n } = useTranslation();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const lng = navigator.language;
     i18n.changeLanguage(lng);
   }, []);
+
+  const navigateToMegaWeb = () => {
+    window.open("https://megahack.tech/")
+    console.log('Navigating to About Us');
+  };
 
   const lng = navigator.language;
 
@@ -60,7 +67,7 @@ function AboutUs() {
         </div>
         <div className={Styles.triContent}>
           <div className={Styles.triText}>{t('aboutus.tritext')}</div>
-          <div className={Styles.triLearn}>{t('aboutus.learn')}</div>
+          <div className={Styles.triLearn} onClick={navigateToMegaWeb}>{t('aboutus.learn')}</div>
         </div>
       </div>
 
