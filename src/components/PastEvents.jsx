@@ -15,8 +15,15 @@ function PastEvents() {
   const lng = navigator.language
 
   return (
-    <>
-<div className={Styles.eventCards}>
+<div>
+        
+    <div className={Styles.eventHeading}>
+    <h3 className={Styles.eventHeadingH3}>EVENTS</h3>
+    <h4>Wonderful past</h4>
+    </div>
+    
+    <div className={Styles.eventCards}>
+        <div className={Styles.eventDeck1}>
               <div className={Styles.eventCard}>
                   <div className={Styles.eventImage}>
                       <img src="/image-2@2x.png" alt="img" />
@@ -45,11 +52,14 @@ function PastEvents() {
                   </div>
                   <div className={Styles.div3LearnMore2}>{t('event.learnmore')}</div>
               </div>
+              </div>
+
+              <div className={Styles.eventDeck2}>
               <div className={Styles.eventCard}>
                   <div className={Styles.eventImage}>
                       <img src="/image-3@2x.png" alt="img" />
                   </div>
-                  <div className={Styles.eventBar2}>
+                  <div className={Styles.eventBar3}>
                       <div className={Styles.eleft}>{t('event.cardbar3')}</div>
                       <div className={Styles.eright}>Competitiveness</div>
                   </div>
@@ -63,7 +73,7 @@ function PastEvents() {
                   <div className={Styles.eventImage}>
                       <img src="/image-3@2x.png" alt="img" />
                   </div>
-                  <div className={Styles.eventBar2}>
+                  <div className={Styles.eventBar4}>
                       <div className={Styles.eleft}>{t('event.cardbar4')}</div>
                       <div className={Styles.eright}>Competitiveness</div>
                   </div>
@@ -74,10 +84,8 @@ function PastEvents() {
                   <div className={Styles.div3LearnMore2}>{t('event.learnmore')}</div>
               </div>
           </div>
-          <div className={Styles.eventMore}>
-              <div className={Styles.more}>{t('event.more')}</div>
           </div>
-          </>
+          </div>
 
   )
 }
