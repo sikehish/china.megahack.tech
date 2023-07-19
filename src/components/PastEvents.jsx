@@ -40,8 +40,36 @@ function PastEvents() {
                       <div className={Styles.eright}>Competitiveness</div>
                   </div>
                   <div className={Styles.cardContent2}>
-                      <div className={Styles.cardHead2}>{t('event.cardhead1')}</div>
-                      <div className={Styles.cardText2}>{t('event.cardtext1')}</div>
+                      <div className={Styles.cardHead2}>{t('event.cardhead2')}</div>
+                      <div className={Styles.cardText2}>{t('event.cardtext2')}</div>
+                  </div>
+                  <div className={Styles.div3LearnMore2}>{t('event.learnmore')}</div>
+              </div>
+              <div className={Styles.eventCard}>
+                  <div className={Styles.eventImage}>
+                      <img src="/image-3@2x.png" alt="img" />
+                  </div>
+                  <div className={Styles.eventBar2}>
+                      <div className={Styles.eleft}>{t('event.cardbar3')}</div>
+                      <div className={Styles.eright}>Competitiveness</div>
+                  </div>
+                  <div className={Styles.cardContent2}>
+                      <div className={Styles.cardHead2}>{t('event.cardhead3')}</div>
+                      <div className={Styles.cardText2}>{t('event.cardtext3')}</div>
+                  </div>
+                  <div className={Styles.div3LearnMore2}>{t('event.learnmore')}</div>
+              </div>
+              <div className={Styles.eventCard}>
+                  <div className={Styles.eventImage}>
+                      <img src="/image-3@2x.png" alt="img" />
+                  </div>
+                  <div className={Styles.eventBar2}>
+                      <div className={Styles.eleft}>{t('event.cardbar4')}</div>
+                      <div className={Styles.eright}>Competitiveness</div>
+                  </div>
+                  <div className={Styles.cardContent2}>
+                      <div className={Styles.cardHead2}>{t('event.cardhead4')}</div>
+                      <div className={Styles.cardText2}>{t('event.cardtext4')}</div>
                   </div>
                   <div className={Styles.div3LearnMore2}>{t('event.learnmore')}</div>
               </div>
