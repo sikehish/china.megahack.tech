@@ -15,7 +15,7 @@ function PastEvents() {
   const lng = navigator.language
 
   return (
-<div>
+<div className={Styles.PastEventsWrapper}>
         
     <div className={Styles.eventHeading}>
     <h3 className={Styles.eventHeadingH3}>EVENTS</h3>

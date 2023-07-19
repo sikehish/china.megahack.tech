@@ -2,6 +2,10 @@
     margin: 10rem 0;
 }
 
+.PastEventsWrapper{
+    display: block;
+}
+
 .past-events-heading{
     text-align: center;
     margin-bottom: 5rem;
