@@ -1,6 +1,6 @@
- import React, {useEffect, useState} from 'react'
+ import {useEffect, useState} from 'react'
 import Styles from './Homepage.module.css'
-import { useTranslation, Trans } from 'react-i18next';
+import { useTranslation, } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 
 function Homepage() {
@@ -15,9 +15,9 @@ function Homepage() {
       useEffect(() => {
           const lng = navigator.language;
           i18n.changeLanguage(lng)
-      }, [])
+      }, )
 
-    const lng = navigator.language
+    // const lng = navigator.language
 
     const handleSignUp = () => {
       window.open("https://mega-hackathon-2023-summer.devpost.com/", '_blank');
@@ -155,7 +155,7 @@ function Homepage() {
                     </div>
                     </div>
                 </div>
-                <div align="center">
+                <div >
                 <div className={Styles.learnMore}>{t('intro.learnmore')}</div>
                 </div>
                 
@@ -164,7 +164,7 @@ function Homepage() {
           {/* Events-Section */}
 
           <div className={Styles.eventHead} >
-          <div align="center">
+          <div>
               <div className={Styles.eventTitle}>Events</div>
               <div className={Styles.activity}>{t('event.activity')}</div>
           </div>
@@ -237,7 +237,7 @@ function Homepage() {
           {/* ContactUs-Section */}
           <div className={Styles.contactUs}>
               <div className={Styles.contactContent}>
-                <div align="center">
+                <div>
                   <div className={Styles.contactHead}>{t('contact.contacthead')}</div>
                 </div>
                 

@@ -49,10 +49,16 @@ i18n
               learnmore: "Learn more",
               cardbar1: "Studio",
               cardbar2: "Hackathon",
+              cardbar3: "Hackathon",
+              cardbar4: "Debate",
               cardhead1: "Use AI to tell digital stories",
               cardhead2: "MEGA HACKATHON 2023",
+              cardhead3: "MEGA HACKATHON 2022",
+              cardhead4: "MEGA International Debate 2023",
               cardtext1: "MEGA teamed up with Columbia doctoral students and professors from Love and the Future to educate young people about the importance of digital storytelling through this transformative course on artificial intelligence and its impact on the climate.",
               cardtext2: "Like last year, the MEGA Hackathon hosted another hackathon event in 2023 that focused on real-world issues.",
+              cardtext3:"Our first annual super hackathon. That's great! The winner receives an internship and a prize of more than $50,000.",
+              cardtext4:"The MEGA Hackathon is hosting its first annual debate. The debate will focus on UN Sustainable Development Goals like hackathons.",
               more: "more"
             },
             contact: {
